@@ -21,7 +21,10 @@ compass:
   twitter: "cqwww"
 
 # exclude
-exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "[vendor]"]
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+include: 
+  - .well-known
 
 # Dependencies
 markdown: kramdown
